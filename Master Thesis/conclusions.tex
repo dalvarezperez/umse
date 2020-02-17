@@ -1,0 +1,44 @@
+\chapter{Conclusions and future work}
+
+The UMSE malware sample format improves malware reverse engineering processes\cite{ContextBasedMalware}\cite{LearningFromContext}\cite{ResidentViruses}\cite{FilelessAttacks}\cite{AdvacedVolatileThreat}
+and also allows security products (including those which comes built-in the
+operating system) to be polite with potentially confidential elements and
+information about its clients and users.  Antivirus enterprises do not seem to
+be interested in spying the user\cite{BBCMarcinKleczynski}, but maybe they collaborate with a third
+party who also uses intelligence information for purposes unrelated to malware
+analysis\cite{KasperskyBoundariesOfTrust}. By using UMSE, antivirus products can take the malware sample
+treatment control in a transparent way and also protect users' data from a
+hypothetical malicious third party.  With the arrival of cyber threat hunting
+products (extremely aggressive products against confidentiality), antivirus
+comparison tools must take seriously into account the issues of
+confidentiality. The rest of features are already sufficiently competed.
+Therefore, clients and users must take confidentiality into account while
+choosing between them.  It is possible to keep the protection ratio and users
+confidentiality at the same time if UMSE is used to acquire, transport and
+store the samples.
+
+There of course some developments and features which were not implemented in
+UMSE so far. among the possible extensions that the tool could integrate, we
+would like to mention the following ideas for future work:
+\begin{itemize}
+\item UMSE version 1.0 does not specify malware samples metadata. In order to
+  be as flexible as possible, it lets this definition absolutely open to
+  security tools which implements UMSE. The future work consist in to develop
+  a sufficiently general malware UMSE metadata standard to reduce security
+  tools UMSE implementation curve.
+\item Current UMSE dynamic linking library includes some target format to UMSE
+  converters \texttt{xxxToUmse.cpp}. For instance, \texttt{peToUMSE.cpp} was
+  developed. We recognize that the mentioned converter file is too simple
+  (special cases could lead to errors) and does not take advantage of Portable
+  Executable granularity (for instance, it does not encrypt each binary
+  resource separately). We let this improvement and the incorporation of new
+  converters for a future work.
+\item The main purpose of this work is to uncover some shortcomings in the
+  current techniques for treating malware samples, and to provide a solution
+  to them. Unfortunately, for reasons of time, we could not incorporate this
+  mechanism to any existing open source solution for antimalware, like
+  Clamav\footnote{\href{https://github.com/Cisco-Talos/clamav-devel}{\texttt{https://github.com/Cisco-Talos/clamav-devel}}}
+  for instance, letting it also open for a future work.
+\item Improve and add support of metadata and heterogeneous element per sample
+  to ``Simple UMSE tool for single users'' mentioned in section XXX.
+\end{itemize}

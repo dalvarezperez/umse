@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libUmse" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="libUmse/bin/Debug/libUmse" prefix_auto="1" extension_auto="1" />
+				<Option object_output="libUmse/build/obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option parameters="libUmse\bin\Debug\libUmse.dll,DllMain" />
+				<Option host_application="C:/Windows/System32/rundll32.exe" />
+				<Option run_host_application_in_terminal="0" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DBUILD_DLL=1" />
+					<Add option="-DDEBUG=1" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="libUmse/bin/Release/libUmse" prefix_auto="1" extension_auto="1" />
+				<Option object_output="libUmse/build/obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-DDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="libUmse/doc/thesis.pdf" />
+		<Unit filename="libUmse/include/config.h" />
+		<Unit filename="libUmse/include/constants.h" />
+		<Unit filename="libUmse/include/include/parsers/dos_mz.cpp" />
+		<Unit filename="libUmse/include/include/parsers/dos_mz.h" />
+		<Unit filename="libUmse/include/include/parsers/elf.cpp" />
+		<Unit filename="libUmse/include/include/parsers/elf.h" />
+		<Unit filename="libUmse/include/include/parsers/exif.cpp" />
+		<Unit filename="libUmse/include/include/parsers/exif.h" />
+		<Unit filename="libUmse/include/include/parsers/exif_be.cpp" />
+		<Unit filename="libUmse/include/include/parsers/exif_be.h" />
+		<Unit filename="libUmse/include/include/parsers/exif_le.cpp" />
+		<Unit filename="libUmse/include/include/parsers/exif_le.h" />
+		<Unit filename="libUmse/include/include/parsers/java_class.cpp" />
+		<Unit filename="libUmse/include/include/parsers/java_class.h" />
+		<Unit filename="libUmse/include/include/parsers/jpeg.cpp" />
+		<Unit filename="libUmse/include/include/parsers/jpeg.h" />
+		<Unit filename="libUmse/include/include/parsers/kaitai/byteswap.h" />
+		<Unit filename="libUmse/include/include/parsers/kaitai/custom_decoder.h" />
+		<Unit filename="libUmse/include/include/parsers/kaitai/endian.h" />
+		<Unit filename="libUmse/include/include/parsers/kaitai/kaitaistream.h" />
+		<Unit filename="libUmse/include/include/parsers/kaitai/kaitaistruct.h" />
+		<Unit filename="libUmse/include/include/parsers/kaitaistream.cpp" />
+		<Unit filename="libUmse/include/include/parsers/microsoft_pe.cpp" />
+		<Unit filename="libUmse/include/include/parsers/microsoft_pe.h" />
+		<Unit filename="libUmse/include/include/parsers/rar.cpp" />
+		<Unit filename="libUmse/include/include/parsers/rar.h" />
+		<Unit filename="libUmse/include/include/parsers/regf.cpp" />
+		<Unit filename="libUmse/include/include/parsers/regf.h" />
+		<Unit filename="libUmse/include/include/parsers/umse.cpp" />
+		<Unit filename="libUmse/include/include/parsers/umse.h" />
+		<Unit filename="libUmse/include/include/parsers/windows_lnk_file.cpp" />
+		<Unit filename="libUmse/include/include/parsers/windows_lnk_file.h" />
+		<Unit filename="libUmse/include/include/parsers/windows_shell_items.cpp" />
+		<Unit filename="libUmse/include/include/parsers/windows_shell_items.h" />
+		<Unit filename="libUmse/include/include/parsers/zip.cpp" />
+		<Unit filename="libUmse/include/include/parsers/zip.h" />
+		<Unit filename="libUmse/include/main.h" />
+		<Unit filename="libUmse/include/membuf.h" />
+		<Unit filename="libUmse/include/memstream.h" />
+		<Unit filename="libUmse/include/umse/conversion/peToUmse.h" />
+		<Unit filename="libUmse/include/umse/conversion/rawToUmse.h" />
+		<Unit filename="libUmse/include/umse/umseUtils.h" />
+		<Unit filename="libUmse/src/main.cpp" />
+		<Unit filename="libUmse/src/umse/conversion/peToUmse.cpp" />
+		<Unit filename="libUmse/src/umse/conversion/rawToUmse.cpp" />
+		<Unit filename="libUmse/src/umse/umseUtils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libUmse/test/load.py" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project output_directory="libUmse\doc\doxygen" />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output html_help="1" latex="1" rtf="1" />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,544 @@
+# depslib dependency file v1.0
+1563316140 source:libUmse\main.cpp
+	"main.h"
+	<fstream>
+	<kaitai/kaitaistream.h>
+	"parsers/microsoft_pe.h"
+	<vector>
+	<string.h>
+	"config.h"
+
+1563316092 libUmse\main.h
+	<windows.h>
+
+1562446958 source:libUmse\includes\parsers\dos_mz.cpp
+	"dos_mz.h"
+
+1562448762 libUmse\includes\parsers\dos_mz.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446959 source:libUmse\includes\parsers\elf.cpp
+	"elf.h"
+	<stdexcept>
+
+1562446959 libUmse\includes\parsers\elf.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446959 source:libUmse\includes\parsers\exif.cpp
+	"exif.h"
+	"exif_be.h"
+	"exif_le.h"
+
+1562446959 libUmse\includes\parsers\exif.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+
+1562446959 libUmse\includes\parsers\exif_be.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446959 libUmse\includes\parsers\exif_le.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446959 source:libUmse\includes\parsers\exif_be.cpp
+	"exif_be.h"
+
+1562446959 source:libUmse\includes\parsers\exif_le.cpp
+	"exif_le.h"
+
+1562446959 source:libUmse\includes\parsers\java_class.cpp
+	"java_class.h"
+
+1562446959 libUmse\includes\parsers\java_class.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446959 source:libUmse\includes\parsers\jpeg.cpp
+	"jpeg.h"
+	"exif.h"
+
+1562446959 libUmse\includes\parsers\jpeg.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446958 source:libUmse\includes\parsers\microsoft_pe.cpp
+	"microsoft_pe.h"
+
+1562446958 libUmse\includes\parsers\microsoft_pe.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446959 source:libUmse\includes\parsers\rar.cpp
+	"rar.h"
+
+1562446959 libUmse\includes\parsers\rar.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446958 source:libUmse\includes\parsers\regf.cpp
+	"regf.h"
+
+1562446958 libUmse\includes\parsers\regf.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446958 source:libUmse\includes\parsers\windows_lnk_file.cpp
+	"windows_lnk_file.h"
+	"windows_shell_items.h"
+
+1562446958 libUmse\includes\parsers\windows_lnk_file.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+
+1562446958 libUmse\includes\parsers\windows_shell_items.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446958 source:libUmse\includes\parsers\windows_shell_items.cpp
+	"windows_shell_items.h"
+
+1562446959 source:libUmse\includes\parsers\zip.cpp
+	"zip.h"
+
+1562446959 libUmse\includes\parsers\zip.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562618957 source:libUmse\kaitaistream.cpp
+	<kaitai/kaitaistream.h>
+	<machine/endian.h>
+	<libkern/OSByteOrder.h>
+	<stdlib.h>
+	<endian.h>
+	<byteswap.h>
+	<iostream>
+	<vector>
+	<stdexcept>
+	<zlib.h>
+	<stdio.h>
+	<algorithm>
+	<iconv.h>
+	<cerrno>
+	<stdexcept>
+
+1563145428 source:libUmse\includes\parsers\umse.cpp
+	"umse.h"
+
+1563145428 libUmse\includes\parsers\umse.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1563316317 libUmse\config.h
+
+1562618957 source:libumse\kaitaistream.cpp
+	<kaitai/kaitaistream.h>
+	<machine/endian.h>
+	<libkern/OSByteOrder.h>
+	<stdlib.h>
+	<endian.h>
+	<byteswap.h>
+	<iostream>
+	<vector>
+	<stdexcept>
+	<zlib.h>
+	<stdio.h>
+	<algorithm>
+	<iconv.h>
+	<cerrno>
+	<stdexcept>
+
+1562446958 source:libumse\includes\includes\parsers\dos_mz.cpp
+	"dos_mz.h"
+
+1562448762 libumse\includes\includes\parsers\dos_mz.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562445696 libumse\includes\includes\parsers\kaitai\kaitaistruct.h
+	<kaitai/kaitaistream.h>
+
+1562446959 source:libumse\includes\includes\parsers\elf.cpp
+	"elf.h"
+	<stdexcept>
+
+1562446959 libumse\includes\includes\parsers\elf.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446959 source:libumse\includes\includes\parsers\exif.cpp
+	"exif.h"
+	"exif_be.h"
+	"exif_le.h"
+
+1562446959 libumse\includes\includes\parsers\exif.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+
+1562446959 libumse\includes\includes\parsers\exif_be.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446959 libumse\includes\includes\parsers\exif_le.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446959 source:libumse\includes\includes\parsers\exif_be.cpp
+	"exif_be.h"
+
+1562446959 source:libumse\includes\includes\parsers\exif_le.cpp
+	"exif_le.h"
+
+1562446959 source:libumse\includes\includes\parsers\java_class.cpp
+	"java_class.h"
+
+1562446959 libumse\includes\includes\parsers\java_class.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446959 source:libumse\includes\includes\parsers\jpeg.cpp
+	"jpeg.h"
+	"exif.h"
+
+1562446959 libumse\includes\includes\parsers\jpeg.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562449369 source:libumse\includes\includes\parsers\kaitaistream.cpp
+	<kaitai/kaitaistream.h>
+	<machine/endian.h>
+	<libkern/OSByteOrder.h>
+	<stdlib.h>
+	<endian.h>
+	<byteswap.h>
+	<iostream>
+	<vector>
+	<stdexcept>
+	<zlib.h>
+	<stdio.h>
+	<algorithm>
+	<iconv.h>
+	<cerrno>
+	<stdexcept>
+
+1562446958 source:libumse\includes\includes\parsers\microsoft_pe.cpp
+	"microsoft_pe.h"
+
+1562446958 libumse\includes\includes\parsers\microsoft_pe.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446959 source:libumse\includes\includes\parsers\rar.cpp
+	"rar.h"
+
+1562446959 libumse\includes\includes\parsers\rar.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446958 source:libumse\includes\includes\parsers\regf.cpp
+	"regf.h"
+
+1562446958 libumse\includes\includes\parsers\regf.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1563145428 source:libumse\includes\includes\parsers\umse.cpp
+	"umse.h"
+
+1563145428 libumse\includes\includes\parsers\umse.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446958 source:libumse\includes\includes\parsers\windows_lnk_file.cpp
+	"windows_lnk_file.h"
+	"windows_shell_items.h"
+
+1562446958 libumse\includes\includes\parsers\windows_lnk_file.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+
+1562446958 libumse\includes\includes\parsers\windows_shell_items.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562446958 source:libumse\includes\includes\parsers\windows_shell_items.cpp
+	"windows_shell_items.h"
+
+1562446959 source:libumse\includes\includes\parsers\zip.cpp
+	"zip.h"
+
+1562446959 libumse\includes\includes\parsers\zip.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562618957 source:libumse\src\kaitaistream.cpp
+	<kaitai/kaitaistream.h>
+	<machine/endian.h>
+	<libkern/OSByteOrder.h>
+	<stdlib.h>
+	<endian.h>
+	<byteswap.h>
+	<iostream>
+	<vector>
+	<stdexcept>
+	<zlib.h>
+	<stdio.h>
+	<algorithm>
+	<iconv.h>
+	<cerrno>
+	<stdexcept>
+
+1577296460 source:libumse\src\main.cpp
+	"include/constants.h"
+	"include/config.h"
+	"include/main.h"
+	<kaitaistream.h>
+	<microsoft_pe.h>
+	<umse.h>
+	<fstream>
+	<streambuf>
+	<include/umse/conversion/peToUmse.h>
+	<include/umse/conversion/rawToUmse.h>
+	<string.h>
+	<include/memstream.h>
+	<openssl/evp.h>
+	<openssl/bio.h>
+	<openssl/rsa.h>
+	<openssl/pem.h>
+	<openssl/hmac.h>
+	<include/umse/umseUtils.h>
+
+1559079472 source:libumse\include\include\openssl\include\openssl\applink.c
+	<stdio.h>
+	<io.h>
+	<fcntl.h>
+
+1562443358 source:libumse\include\include\parsers\dos_mz.cpp
+	"dos_mz.h"
+
+1562445162 libumse\include\include\parsers\dos_mz.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562442096 libumse\include\include\parsers\kaitai\kaitaistruct.h
+	<kaitai/kaitaistream.h>
+
+1562443359 source:libumse\include\include\parsers\elf.cpp
+	"elf.h"
+	<stdexcept>
+
+1562443359 libumse\include\include\parsers\elf.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562443359 source:libumse\include\include\parsers\exif.cpp
+	"exif.h"
+	"exif_be.h"
+	"exif_le.h"
+
+1562443359 libumse\include\include\parsers\exif.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+
+1562443359 libumse\include\include\parsers\exif_be.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562443359 libumse\include\include\parsers\exif_le.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562443359 source:libumse\include\include\parsers\exif_be.cpp
+	"exif_be.h"
+
+1562443359 source:libumse\include\include\parsers\exif_le.cpp
+	"exif_le.h"
+
+1562443359 source:libumse\include\include\parsers\java_class.cpp
+	"java_class.h"
+
+1562443359 libumse\include\include\parsers\java_class.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562443359 source:libumse\include\include\parsers\jpeg.cpp
+	"jpeg.h"
+	"exif.h"
+
+1562443359 libumse\include\include\parsers\jpeg.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562445769 source:libumse\include\include\parsers\kaitaistream.cpp
+	<kaitai/kaitaistream.h>
+	<machine/endian.h>
+	<libkern/OSByteOrder.h>
+	<stdlib.h>
+	<endian.h>
+	<byteswap.h>
+	<iostream>
+	<vector>
+	<stdexcept>
+	<zlib.h>
+	<stdio.h>
+	<algorithm>
+	<iconv.h>
+	<cerrno>
+	<stdexcept>
+
+1562443358 source:libumse\include\include\parsers\microsoft_pe.cpp
+	"microsoft_pe.h"
+
+1562443358 libumse\include\include\parsers\microsoft_pe.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562443359 source:libumse\include\include\parsers\rar.cpp
+	"rar.h"
+
+1562443359 libumse\include\include\parsers\rar.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562443358 source:libumse\include\include\parsers\regf.cpp
+	"regf.h"
+
+1562443358 libumse\include\include\parsers\regf.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1577232871 source:libumse\include\include\parsers\umse.cpp
+	"umse.h"
+
+1577232951 libumse\include\include\parsers\umse.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562443358 source:libumse\include\include\parsers\windows_lnk_file.cpp
+	"windows_lnk_file.h"
+	"windows_shell_items.h"
+
+1562443358 libumse\include\include\parsers\windows_lnk_file.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+
+1562443358 libumse\include\include\parsers\windows_shell_items.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1562443358 source:libumse\include\include\parsers\windows_shell_items.cpp
+	"windows_shell_items.h"
+
+1562443359 source:libumse\include\include\parsers\zip.cpp
+	"zip.h"
+
+1562443359 libumse\include\include\parsers\zip.h
+	"kaitai/kaitaistruct.h"
+	<stdint.h>
+	<vector>
+
+1559079472 libumse\include\include\openssl\include\openssl\sha.h
+	<openssl/e_os2.h>
+	<stddef.h>
+
+1559079472 libumse\include\include\openssl\include\openssl\e_os2.h
+	<openssl/opensslconf.h>
+	<inttypes.h>
+	<stdint.h>
+
+1559079472 libumse\include\include\openssl\include\openssl\opensslconf.h
+
+1563747266 source:libumse\src\umseutils.c
+	"include/umseUtils.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<openssl/aes.h>
+	<openssl/rand.h>
+
+1577231543 source:libumse\src\umse\umseutils.c
+	<include/umse/umseUtils.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<openssl/aes.h>
+	<openssl/rand.h>
+	<openssl/sha.h>
+	<openssl/evp.h>
+	<openssl/bio.h>
+	<openssl/rsa.h>
+	<openssl/pem.h>
+	<openssl/hmac.h>
+	"include/config.h"
+
+1563749465 source:libumse\src\umse\conversion\petoumse.c
+
+1563749673 source:libumse\src\umse\conversion\blobtoumse.c
+	<include/umse/conversion/blobToUmse.h>
+
+1563749673 source:libumse\src\umse\conversion\blobtoumse.cpp
+	<include/umse/conversion/blobToUmse.h>
+
+1577231490 source:libumse\src\umse\conversion\petoumse.cpp
+	<include/umse/conversion/peToUmse.h>
+	<kaitaistream.h>
+	<microsoft_pe.h>
+	<fstream>
+	<vector>
+	<string.h>
+	<stdlib.h>
+	<include/memstream.h>
+	"include/constants.h"
+	<openssl/evp.h>
+	<include/config.h>
+	<include/umse/umseUtils.h>
+
+1577231531 source:libumse\src\umse\conversion\rawtoumse.cpp
+	<include/umse/conversion/rawToUmse.h>
+	"include/constants.h"
+	<fstream>
+	<vector>
+	<string.h>
+	<stdlib.h>
+	<include/memstream.h>
+	<openssl/evp.h>
+	<include/config.h>
+	<include/umse/umseUtils.h>
+

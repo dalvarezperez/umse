@@ -1,0 +1,44 @@
+% Some commands used in this file
+\newcommand{\package}{\emph}
+
+\chapter{Introduction}
+
+Understanding by malware sample the evidence set of any kind of malicious
+element, hardware and/or software, in a vital cycle state and belonging a
+context, the present work addresses the malware sample process: acquisition,
+efficient storage, confidentiality and access logging problem.
+
+The result of this work is an encrypted malware sample format called Universal
+Malware Sample Encryption (hereafter, UMSE). The development, far from being
+limited to the sheer format specification, consisted in the following:
+\begin{itemize}
+\item UMSE format documentation and specification.
+\item A Microsoft Windows Portable Executable\cite{MicrosoftPecoff} dynamic linking library\cite{DynamicLinkLibraries}
+  implementing all necessary functions to work with UMSE, for instance:
+  generate an UMSE malware sample, decrypt some sample parts regarding
+  individual parts confidentiality, etc.  This library was developed in C/C++
+  to be used by security products which are mostly developed in these
+  languages (well, although it can be called from other languages).
+\item A very elementary antimalware agent simulator which acquires system
+  elements demonstrating how easy is to integrate the UMSE dynamic linking
+  library with existing security products.
+\item An intelligence tool. It consists in a web panel allowing to operate and
+  manage UMSE malware samples stored in a generic database. All malware
+  samples come from the mentioned antimalware agent simulator, which
+  recollects potential malicious elements and sends them to this server. On
+  the other hand, by virtue of UMSE format, each operation over the samples
+  can be logged, as is this case here.
+\item A Shell, allowing the malware analyst to communicate with the
+  intelligence tool to work with samples. Possible operations are some of
+  which, at least two, deserve mention: UMSE sample downloading and UMSE
+  sample parts decryption in case that the analyst was sufficiently privileged
+  in comparison to, not only the global, but also the confidentiality level
+  for the specific individual sample parts.
+\item A tool to quickly and easily generate samples, useful when encryption is
+  not a must.
+\end{itemize}
+Below is the status of current malware sample acquisition, storage and
+confidentiality in order to show the problem addressed in the rest of this
+work.
+
+% Structure of the document.

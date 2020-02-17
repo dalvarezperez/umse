@@ -1,0 +1,1 @@
+start /D . %userprofile%\AppData\Local\Programs\Python\Python37\pythonw.exe av_agent.py
