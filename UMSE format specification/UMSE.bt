@@ -1,12 +1,12 @@
 //------------------------------------------------
 //--- 010 Editor v8.0.1 Binary Template
 //
-//      File: umse.bt
+//      File: UMSE.bt
 //   Authors: David Alvarez Perez
 //   Version: 0.1
 //   Purpose: Template for Universal Malware Sample Encryption
 //  Category: Misc
-// File Mask: umse
+// File Mask: *.umse
 //  ID Bytes: 55 4D 53 45 //UMSE
 //   History: 
 //------------------------------------------------
