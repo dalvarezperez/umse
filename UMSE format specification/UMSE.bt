@@ -9,6 +9,7 @@
 // File Mask: *.umse
 //  ID Bytes: 55 4D 53 45 //UMSE
 //   History: 
+//   0.1   2020-02-24 David Alvarez Perez: Initial version.
 //------------------------------------------------
 struct ENCRYPTED_SAMPLE {
     struct HEADER {
