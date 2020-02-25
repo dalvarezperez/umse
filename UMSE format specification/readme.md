@@ -5,7 +5,7 @@ UMSE format is formally specified using Kaitai Struct language.
 | File                  | Description                                                                |
 | --------------------- |:--------------------------------------------------------------------------:|
 | umse.ksy              | [Kaitai Struct](https://kaitai.io/) UMSE formal specification              |
-| umse.bt               | [SweetScap 010Editor](https://www.sweetscape.com/010editor/) UMSE template |
+| UMSE.bt               | [SweetScap 010Editor](https://www.sweetscape.com/010editor/) UMSE template |
 
 A sample given in UMSE format consists in the following sub-structures:  
 
