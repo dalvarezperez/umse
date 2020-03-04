@@ -12,7 +12,7 @@ PDF: [Master Thesis (PDF version)](Master%20Thesis/thesis.pdf).
 ## UMSE format specification
 
 UMSE structure [(available here)](UMSE%20format%20specification/umse.ksy) is formally specified using [Kaitai Struct](https://kaitai.io/) language.  
-For practical purposes a [SweetScap 010Editor](https://www.sweetscape.com/010editor/) template [(available here)](UMSE%20format%20specification/umse.bt) was also developed.
+For practical purposes a [SweetScap 010Editor](https://www.sweetscape.com/010editor/) template [(available here)](UMSE%20format%20specification/UMSE.bt) was also developed.
 
 ## UMSE implementation
 
