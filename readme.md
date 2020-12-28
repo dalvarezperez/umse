@@ -37,6 +37,10 @@ git clone https://github.com/dalvarezperez/umse.git
 3. [Intelligence server integration demostration](UMSE%20Server).  
 4. [Malware analyst console demostration](UMSE%20Shell).  
 
+## Awards
+
+1. CyberSec@GAL: [Premios cátedra R en ciberseguridade UVIGO-UDC, 2020](https://catedrarciberseguridade.com/downloads/2020-Acta_II_PREMIOS_CATEDRA_R_EN_CIBERSEGURIDAD.pdf)
+
 ## UMSE authors and contributors
 
 1. Authors  
